@@ -1,6 +1,4 @@
 import { COLORS } from '@muc/constant'
-
-import React from 'react'
 import { Typography,Box } from '@mui/material'
 import { NavLink } from 'react-router-dom'
 

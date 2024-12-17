@@ -30,6 +30,7 @@ const BulkCargo = ({ accordionData, title, img }: Props) => {
   const handleChange =
     (panel: number) => (event: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded ? panel : false);
+      console.log(event)
     };
   return (
     <Box maxWidth={"1140px"} paddingX={2} mx={"auto"}>
@@ -120,7 +121,7 @@ function CustomArrow({
   direction,
   onClick,
 }: {
-  direction: any;
+  direction: "next" | "prev";
   onClick: () => void;
 }) {
   return (

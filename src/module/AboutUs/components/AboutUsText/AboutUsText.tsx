@@ -1,6 +1,5 @@
 import { COLORS } from "@muc/constant";
 import { Box, Typography } from "@mui/material";
-import React from "react";
 
 const AboutUsText = () => {
   return (

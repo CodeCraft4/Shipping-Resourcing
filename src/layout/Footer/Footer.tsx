@@ -1,7 +1,5 @@
-import React from "react";
 import { Box, Grid, ListItem, Typography, List } from "@mui/material";
 import { COLORS } from "@muc/constant";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import Inventory2Icon from "@mui/icons-material/Inventory2";
 import CallIcon from "@mui/icons-material/Call";

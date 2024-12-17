@@ -1,4 +1,3 @@
-import React from "react";
 import { COLORS } from "@muc/constant";
 import { Box, Grid, Typography } from "@mui/material";
 import { useInView } from "react-intersection-observer";
@@ -40,7 +39,14 @@ const CoreServices = () => {
   );
 };
 
-const ServiceCard = ({ item }) => {
+interface ServiceCardProps {
+  item: {
+    icon: React.ReactNode; 
+    title: string;
+  };
+}
+
+const ServiceCard = ({ item }:ServiceCardProps) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,

@@ -1,5 +1,4 @@
 import { Grid } from '@mui/material'
-import React from 'react'
 import AboutUsText from '../AboutUsText/AboutUsText'
 import AboutSlider from '../AboutSlider/AboutSlider'
 

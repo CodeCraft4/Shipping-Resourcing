@@ -2,9 +2,6 @@ import { Grid, Typography, Box } from "@mui/material";
 import Inventory2Icon from "@mui/icons-material/Inventory2";
 import CallIcon from "@mui/icons-material/Call";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-
-import React from "react";
 import { COLORS } from "@muc/constant";
 import { AddLocation } from "@mui/icons-material";
 import ContactForm from "../ContactForm/ContactForm";

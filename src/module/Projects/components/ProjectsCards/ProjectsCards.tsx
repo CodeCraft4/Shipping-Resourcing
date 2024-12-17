@@ -1,6 +1,5 @@
 import { COLORS } from "@muc/constant";
 import { Box, Grid, Typography } from "@mui/material";
-
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 

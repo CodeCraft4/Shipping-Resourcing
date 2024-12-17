@@ -1,5 +1,3 @@
-import React from 'react'
-
 import HomeCards from '../../components/HomeCards/HomeCards'
 import LogisticsFields from '../../components/LogisticsFields/LogisticsFields'
 import { Box } from '@mui/material'

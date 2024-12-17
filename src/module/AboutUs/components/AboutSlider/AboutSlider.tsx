@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,8 +54,8 @@ function CustomArrow({
   direction,
   onClick,
 }: {
-  direction: any;
-  onClick: () => void;
+  direction: "next" | "prev"; 
+  onClick: () => void; 
 }) {
   return (
     <Box
@@ -76,7 +75,6 @@ function CustomArrow({
         justifyContent: "center",
         alignItems: "center",
         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-       
       }}
     >
       {direction === "next" ? (
@@ -87,3 +85,4 @@ function CustomArrow({
     </Box>
   );
 }
+

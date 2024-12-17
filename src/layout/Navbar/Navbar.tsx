@@ -26,7 +26,12 @@ const navItems = [
   { title: "CONTACT US", path: "/contactUs" },
 ];
 
-export default function Navbar(props: any) {
+interface NavbarProps {
+  window?: () => Window; // Optional window property for responsive design
+}
+
+
+export default function Navbar(props: NavbarProps) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
